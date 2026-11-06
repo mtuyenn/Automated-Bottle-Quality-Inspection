@@ -1,0 +1,113 @@
+{
+  "revision": "candidate-v2-corrections-2026-11-05-v1",
+  "dataset_sha256": "28ee24280bce8184acd1cdf9a97e850788e908109bfa662efecb07a8a7b179eb",
+  "source_repair_id": "20261104T173852Z-f54a30",
+  "classes": {
+    "0": "bottle",
+    "1": "cap",
+    "2": "label"
+  },
+  "source_images_and_label_text_sha_verified": 7,
+  "source_exif_orientation_present": false,
+  "status": "PROPOSED_CORRECTIONS",
+  "training_ready": false,
+  "applied_to_drive": false,
+  "candidate_v2_created": false,
+  "actions": [
+    {
+      "id": "train-005",
+      "image": "images/train/images-2024-04-11T000613-929_jpeg_jpg.rf.fdf9b69e6b450b33e2a8d5c8146e8d40.jpg",
+      "label": "labels/train/images-2024-04-11T000613-929_jpeg_jpg.rf.fdf9b69e6b450b33e2a8d5c8146e8d40.txt",
+      "image_sha256": "4138d13c41550cbf6789cc8e1e72006d77bb8ef8f2ca724834111810f43cf306",
+      "original_label_sha256": "edbbc4e99199a8e4d3d19bd2266fe2f84b37acbfc56442dff57fca945bd76ca0",
+      "action": "replace_label",
+      "reason": "Add visible full-body product sleeve label; tighten bottle to observed silhouette instead of white margin/cut base.",
+      "source_size": [
+        640,
+        640
+      ],
+      "replacement_yolo": "0 0.50234375 0.49765625 0.28906250 0.89843750\n1 0.49609375 0.08828125 0.13828125 0.09375\n2 0.50234375 0.55156250 0.28593750 0.77812500\n",
+      "replacement_label_sha256": "e30dd2ae5b9bc6eccfd61a80e6eb611483139452a997251319d059de66009372",
+      "review_stage": "proposed_after_original_image_review"
+    },
+    {
+      "id": "train-016",
+      "image": "images/train/WhatsApp-Image-2024-06-22-at-5-48-34-PM_jpeg.rf.faee8614c45c528b2c272b7370f2cd60.jpg",
+      "label": "labels/train/WhatsApp-Image-2024-06-22-at-5-48-34-PM_jpeg.rf.faee8614c45c528b2c272b7370f2cd60.txt",
+      "image_sha256": "b11719d35960818d2aede89c375dee6a2f22988e84b5d99c13f48921315c8d50",
+      "original_label_sha256": "bcac55d93776c68b0db8f53f37a81a4d470752ad588a0df3cbe85cbaa0f114c0",
+      "action": "replace_label",
+      "reason": "Add visible left cap only. Middle bottle has exposed threads/open neck; do not invent a cap.",
+      "source_size": [
+        640,
+        640
+      ],
+      "replacement_yolo": "0 0.78984375 0.4390625 0.315625 0.7875\n0 0.51796875 0.515625 0.22734375 0.64921875\n0 0.2546875 0.53515625 0.28125 0.68203125\n2 0.7859375 0.51796875 0.2578125 0.18125\n2 0.25234375 0.621875 0.22734375 0.18359375\n1 0.8140625 0.0984375 0.1484375 0.07734375\n1 0.22578125 0.25234375 0.11406250 0.05156250\n",
+      "replacement_label_sha256": "6add788fe876a73fd947f000362c1961f551893a71e55bbe4e6bef2175b662c9",
+      "review_stage": "proposed_after_original_image_review"
+    },
+    {
+      "id": "train-018",
+      "image": "images/train/Plastico_35_jpg.rf.d97bbb96fd11c6f334b4195cbd5f5ca1.jpg",
+      "label": "labels/train/Plastico_35_jpg.rf.d97bbb96fd11c6f334b4195cbd5f5ca1.txt",
+      "image_sha256": "6e18a14ef66a64c6c415cceb8dcecf607769e88415a9d045365fc3c5b18e1794",
+      "original_label_sha256": "1ca5dbd302f1c6e02277362c931ccb97c624d0c568f09e95f649a1b629593b35",
+      "action": "replace_label",
+      "reason": "Add visible Mountain Dew label with axis-aligned box; preserve original orientation and existing boxes.",
+      "source_size": [
+        640,
+        640
+      ],
+      "replacement_yolo": "0 0.41953125 0.60859375 0.76875 0.3890625\n1 0.115625 0.58203125 0.15859375 0.2421875\n2 0.54375000 0.62187500 0.23125000 0.38125000\n",
+      "replacement_label_sha256": "2d8ebc0dda30a371ecd40525a1797e5bf04bd1ca708ae364adbfdc3b324977dc",
+      "review_stage": "proposed_after_original_image_review"
+    },
+    {
+      "id": "train-027",
+      "image": "images/train/crushed_plastic_bottle76_jpg.rf.f7c98d72a8c4b6b2e1053773c3aa7f20.jpg",
+      "label": "labels/train/crushed_plastic_bottle76_jpg.rf.f7c98d72a8c4b6b2e1053773c3aa7f20.txt",
+      "image_sha256": "d76a798983f079974925386b5743f958d13fd760d9b3b4affb9fd0747df13ded",
+      "original_label_sha256": "387cd9ffd0abe4083c35ea979f83bd39917fbcd02b614687c4f3041334739fd0",
+      "action": "replace_label",
+      "reason": "Add clearly visible white cap; blue neck/tamper ring is excluded from cap extent.",
+      "source_size": [
+        640,
+        640
+      ],
+      "replacement_yolo": "0 0.48671875 0.5640625 0.7953125 0.8125\n1 0.17031250 0.39140625 0.11875000 0.27343750\n",
+      "replacement_label_sha256": "af180a747a2c7cdd4bd08241733f08eca537a9fb9ec66f0f19a0ddd70725f0d1",
+      "review_stage": "proposed_after_original_image_review"
+    },
+    {
+      "id": "train-044",
+      "image": "images/train/images-82-_jpeg_jpg.rf.2507b61e1295a17872b07b45ad24b28b.jpg",
+      "label": "labels/train/images-82-_jpeg_jpg.rf.2507b61e1295a17872b07b45ad24b28b.txt",
+      "image_sha256": "756e98817b51d27c90191c61d0a632cb4df0f7bda794ca319823d93769708883",
+      "original_label_sha256": "e822d13781e25a6f424e88ba47071d09ecda50faf06509fa276b8d11ee6a10a2",
+      "action": "exclude_from_candidate",
+      "reason": "Advertisement/collage with incomplete component annotations; outside conveyor-camera training target. Keep original unchanged.",
+      "review_stage": "proposed_after_original_image_review"
+    },
+    {
+      "id": "train-046",
+      "image": "images/train/images-53-_jpeg_jpg.rf.7033868f7db98f546c138edc1ab07510.jpg",
+      "label": "labels/train/images-53-_jpeg_jpg.rf.7033868f7db98f546c138edc1ab07510.txt",
+      "image_sha256": "7dcd11550fffbe669c2a67f6cad9f25a4fbd86d618d3bed7f94ca11cb86f5fcf",
+      "original_label_sha256": "09486e23ee2c496d1c5231cd76cc50c15f57fc5584ae6cca2460b414efa820b6",
+      "action": "exclude_from_candidate",
+      "reason": "Advertisement/collage with incomplete component annotations; outside conveyor-camera training target. Keep original unchanged.",
+      "review_stage": "proposed_after_original_image_review"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "train-020",
+      "image": "images/train/IMG-20240622-WA0103_jpg.rf.bb850979267866d536c364a3189a9b2b.jpg",
+      "label": "labels/train/IMG-20240622-WA0103_jpg.rf.bb850979267866d536c364a3189a9b2b.txt",
+      "image_sha256": "8eb9b68d90e4207d533d08744242a97f93d77a8c9acc579fd34cfa9994954b34",
+      "original_label_sha256": "d4e52e0665aa8c8bd9fbdaaac47c2fd34fa7aff445816439608aad33f429168a",
+      "reason": "Cap box includes green neck/ring and no bottle box; partial-bottle annotation policy remains unresolved. No label change applied."
+    }
+  ],
+  "scope": "Only seven original images reviewed; not a complete candidate audit or proof of improved accuracy. Preserve all unreviewed/ambiguous statuses."
+}

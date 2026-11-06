@@ -1,0 +1,3 @@
+# Local model registry
+
+Only a selected model intended for local inference belongs here. Each model directory needs a manifest with detection task, exact classes 0=bottle/1=cap/2=label, relative weights path, matching SHA-256, framework version and verified provenance. Startup checks containment, hash, loaded task/classes and a real inference capability probe. Full checkpoints stay on Drive. No compatible weights are installed in this local directory.

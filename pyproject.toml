@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bottle-qc"
+version = "1.0.0"
+description = "Local BottleQC runtime for sample image and video inspection"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "httpx>=0.27,<1",
+  "python-multipart>=0.0.12,<1",
+  "numpy>=1.26,<3",
+  "opencv-python>=4.9,<5",
+  "Pillow>=10,<13",
+  "PyYAML>=6,<7",
+  "streamlit>=1.39,<2",
+  "uvicorn[standard]>=0.30,<1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+real = ["ultralytics==8.4.193"]
+
+[project.scripts]
+bottleqc-api = "bottle_qc.api.app:main"
+bottleqc-ui = "bottle_qc.ui.app:main"
+bottleqc-demo = "bottle_qc.demo:main"
+bottleqc-data = "bottle_qc.training.dataset:main"
+bottleqc-model = "bottle_qc.vision.model_manifest:main"
+bottleqc-train = "bottle_qc.training.train:main"
+bottleqc-eval-system = "bottle_qc.evaluation.system:main"
+bottleqc-eval-detector = "bottle_qc.evaluation.detector:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"

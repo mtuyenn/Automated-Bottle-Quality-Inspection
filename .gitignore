@@ -1,0 +1,45 @@
+# Python / môi trường
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Cấu hình riêng
+.env
+.env.*
+!.env.example
+
+# Dữ liệu, weights và kết quả: chỉ giữ hướng dẫn
+/data/**/*
+!/data/README.md
+/models/**/*
+!/models/README.md
+/artifacts/**/*
+!/artifacts/README.md
+
+# Artifact vô tình ghi ngoài thư mục quy định
+*.pt
+*.onnx
+*.engine
+*.sqlite
+*.sqlite3
+*.db
+/runs/
+.bottleqc/
+*.tmp
+*.log
+
+# Editor và hệ điều hành
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

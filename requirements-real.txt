@@ -1,0 +1,3 @@
+# Install the runtime, development, and pinned REAL detector dependencies.
+-r requirements-dev.txt
+ultralytics==8.4.193

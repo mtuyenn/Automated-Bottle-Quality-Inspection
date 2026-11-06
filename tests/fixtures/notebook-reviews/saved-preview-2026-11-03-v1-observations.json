@@ -1,0 +1,1510 @@
+{
+  "revision": "saved-preview-2026-11-03-v1",
+  "meaning": "Manual visual observations of saved G/I image members. Group membership and filename equality do not establish duplicate identity.",
+  "groups": {
+    "1": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "clear bottle on grey fabric; same shoulder highlights and fabric texture"
+    },
+    "2": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "diagonal yellow-capped bottle; same label, cap angle and grey fabric"
+    },
+    "3": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "beach litter scene; same bottle arrangement, red cap, sand and waves"
+    },
+    "4": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "upright clear bottle; same cropped neck, base and grey fabric marks"
+    },
+    "5": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "pile of transparent bottles; same white caps and overlapping ridges"
+    },
+    "6": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "diagonal blue-labelled bottle; same cap, creases and fabric pattern"
+    },
+    "7": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "bottle on red tiled patio; same pots, tile marks and bottle position"
+    },
+    "8": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "Coca-Cola bottle on patterned fabric; same label position and background motifs"
+    },
+    "9": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "bottle lying on red tiles; same cap, label and tile intersections"
+    },
+    "10": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "blue-labelled bottle on grey fabric; same diagonal pose and reflections"
+    },
+    "11": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "close Fanta label and yellow cap; matching label crop and neck highlights"
+    },
+    "12": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "partial yellow label and bottle base; matching crop and clear-plastic details"
+    },
+    "13": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "upside-down Coca-Cola Zero label; same crop and bottle reflections"
+    },
+    "14": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "blue BEZZA bottle on tiles; same cap, label and tile joints"
+    },
+    "15": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "yellow-labelled bottle; same diagonal pose, ribs and fabric texture"
+    },
+    "16": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "pile with red Coca-Cola and blue Pepsi labels; matching bottle arrangement"
+    },
+    "17": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "hand holding crushed bottle; matching fingers, crushed shape and black cap"
+    },
+    "18": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "horizontal flattened clear bottle; matching long folds and neck"
+    },
+    "19": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "blue-capped partly crushed bottle; matching neck and crumple outline"
+    },
+    "20": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "horizontal crushed bottle with blue cap; matching folds and cap placement"
+    },
+    "21": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "diagonal green-capped crushed bottle; matching folds and tilted neck"
+    },
+    "22": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "squashed blue bottle; matching cap, folds and bottom stock watermark strip"
+    },
+    "23": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "green-capped crushed bottle on white; matching folds and neck angle"
+    },
+    "24": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "horizontal crushed bottle with green cap at left; matching fold geometry"
+    },
+    "25": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "flattened upright bottle; matching crumple silhouette and watermark positions"
+    },
+    "26": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "bent blue-necked bottle and separate cap; matching shape and cap position"
+    },
+    "27": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "same_source_evidence": "flat blue bottle with sideways cap and watermark; matching fold lines"
+    },
+    "28": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "same_source_evidence": "open-necked flattened bottle; matching central crease and blue side strip"
+    },
+    "29": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "same_source_evidence": "crumpled bottle and two blue caps; matching fold texture and cap layout"
+    },
+    "30": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "blue crumpled bottle and loose cap on left; matching neck, folds and layout"
+    },
+    "31": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "flattened squat bottle with blue cap; matching watermark and bottle folds"
+    },
+    "32": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "bottle in pale enclosure; same label, reflections and enclosure edges"
+    },
+    "33": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "pile of blue crushed bottles; matching bottle arrangement and cap positions"
+    },
+    "35": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "Coca-Cola bottle front in enclosure; same label, reflections and box edges"
+    },
+    "36": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "blue-labelled bottle in enclosure; same pose, ridges and surrounding edges"
+    },
+    "37": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "same_source_evidence": "blue-capped crushed bottle stock photo; matching folds and watermark pattern"
+    },
+    "38": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "foreground crushed bottle before upright bottles; matching background arrangement"
+    },
+    "39": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "pile of blue crushed bottles; matching caps, folds and watermark positions"
+    },
+    "40": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "sideways uncapped crushed blue bottle; matching opening, folds and outline"
+    },
+    "41": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "squat blue-capped clear crushed bottle; matching cap angle and folds"
+    },
+    "42": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "blue-capped crushed bottle on turquoise background; matching cap, folds and black footer"
+    },
+    "43": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "two-row grid of twelve bottles; identical individual shapes and grid arrangement despite different filenames"
+    },
+    "44": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "grid of blue bottles with black watermark footer; matching shape arrangement"
+    },
+    "45": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "squat crushed open-necked blue bottle; matching folds, surface and background"
+    },
+    "46": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "row of crushed bottles with dark background; matching caps and arrangement"
+    },
+    "47": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "green crushed bottle with yellow cap; matching folds, checkerboard and cap"
+    },
+    "49": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "dark enclosure photo; matching ribs, label, neck highlight and wall edges"
+    },
+    "51": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "yellow-labelled drink bottle in pink enclosure; same label, pose and enclosure marks"
+    },
+    "53": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "blue-capped crushed stock bottle; matching folds, base and ground shadow"
+    },
+    "54": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "tilted crushed blue bottle; matching folds and black stock-image footer"
+    },
+    "56": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "same_source_evidence": "two yellow-labelled bottles on fabric; matching bottle layout and fabric seams, including mirrored variants"
+    },
+    "57": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "labelled clear bottle in enclosure; matching label, base and enclosure corners"
+    },
+    "58": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "hand crushing bottle outdoors; matching fingers, folds and blurred background"
+    },
+    "59": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "open blue-necked crushed bottle; matching folds and stock watermark footer"
+    },
+    "60": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "yellow-capped crushed bottle; matching bent outline, folds and footer"
+    },
+    "61": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "two yellow-labelled bottles on fabric; matching arrangement and fabric seam geometry"
+    },
+    "62": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "pile of green and blue crushed bottles; matching caps, folds and pile arrangement"
+    },
+    "63": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "cropped blue crushed bottle torso; matching neck crop and fold geometry"
+    },
+    "64": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "yellow drink bottle in pink enclosure; matching label, pose and box edge layout"
+    },
+    "65": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "same_source_evidence": "six crushed stock bottles in two rows; matching shapes, caps and arrangement"
+    },
+    "66": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "blue-labelled bottle in pale enclosure; matching bottle pose and enclosure marks"
+    },
+    "67": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "two open-necked blue crushed bottles; matching neck openings, folds and watermark"
+    },
+    "68": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "blue-capped crushed bottle close-up; matching neck and crumple shape"
+    },
+    "69": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "yellow-labelled empty bottle in pink enclosure; matching label and box edge geometry"
+    },
+    "71": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "same_source_evidence": "green crushed bottle; matching tilted cap, fold pattern and silhouette"
+    },
+    "72": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "pile of blue crushed bottles; matching bottle and cap arrangement"
+    },
+    "74": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "horizontal small bottle in enclosure; matching label, bottle position and box edges"
+    },
+    "75": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "dark green 7Up bottle in enclosure; matching rotated label, bottle outline and rectangular brightness patch"
+    },
+    "76": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "same_source_evidence": "green Bo3 bottle in pink enclosure; matching label pose and enclosure edges"
+    },
+    "77": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "same_source_evidence": "turquoise bottle silhouettes graphic; identical lobes, bottle tilt and dark blue cap"
+    },
+    "78": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "blue-capped bottle in enclosure; matching label details, base and surrounding edges"
+    },
+    "79": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "yellow-labelled bottle in pink enclosure; matching label, position and enclosure marks"
+    },
+    "80": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "long blue-labelled bottle on grey fabric; matching bottle pose and fabric marks"
+    },
+    "81": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "cropped blue bottle base on grey fabric; matching bottom indentations and fabric texture"
+    },
+    "82": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "open-necked crushed blue bottle close-up; matching folds, watermark and blue background"
+    },
+    "83": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "green Bo3 bottle in enclosure; matching label, reflections and enclosure edges"
+    },
+    "84": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "open blue bottle neck and loose blue cap; matching folds and cap layout"
+    },
+    "34": {
+      "same_source_sets": [
+        [
+          2,
+          4,
+          40
+        ],
+        [
+          3,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        [
+          11,
+          12,
+          13,
+          14,
+          41
+        ],
+        [
+          24,
+          25,
+          42,
+          43
+        ],
+        [
+          39,
+          46
+        ]
+      ],
+      "same_source_evidence": "matching label crop, bottle highlights and enclosure seams within the specifically listed image sets",
+      "distinct_content_sets": {
+        "red_CocaCola_label": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          40,
+          41,
+          42,
+          43
+        ],
+        "blue_cap_water_label": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          44,
+          45,
+          46
+        ]
+      }
+    },
+    "48": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "same_source_evidence": "matching bottle ribs, label details and enclosure corners within each listed set",
+      "distinct_content_sets": {
+        "large_dark_label_and_tilted_bottle": [
+          1,
+          2
+        ],
+        "front_graphic_label_and_upright_bottle": [
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "50": {
+      "same_source_sets": [
+        [
+          1,
+          13,
+          14
+        ],
+        [
+          3,
+          4,
+          19,
+          30
+        ],
+        [
+          5,
+          20,
+          21,
+          22,
+          23,
+          24,
+          31
+        ],
+        [
+          6,
+          25,
+          26
+        ],
+        [
+          15,
+          16,
+          17,
+          18,
+          28,
+          29
+        ]
+      ],
+      "same_source_evidence": "matching label angle, bottle highlights and pink enclosure marks within each listed set",
+      "distinct_content_sets": {
+        "green_Bo3_bottle": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "clear_bottle_with_blue_orange_label": [
+          6,
+          25,
+          26
+        ],
+        "bottle_with_orange_liquid": [
+          32
+        ]
+      }
+    },
+    "52": {
+      "same_source_sets": [
+        [
+          1,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          73
+        ],
+        [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          75
+        ],
+        [
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          76,
+          77
+        ]
+      ],
+      "same_source_evidence": "matching bottle position, label details and enclosure edge geometry within each explicitly listed set",
+      "distinct_content_sets": {
+        "diagonal_long_water_bottle": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "horizontal_water_bottle": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "diagonal_red_label_bottle": [
+          1,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          73
+        ],
+        "short_drink_bottle_diagonal_at_left": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          75
+        ],
+        "short_drink_bottle_vertical_at_left": [
+          2,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          74,
+          76,
+          77
+        ]
+      },
+      "abstain_between_content_sets": [
+        [
+          "diagonal_red_label_bottle",
+          "short_drink_bottle_diagonal_at_left"
+        ]
+      ]
+    },
+    "55": {
+      "same_source_sets": [
+        [
+          7,
+          19
+        ],
+        [
+          13,
+          21
+        ]
+      ],
+      "same_source_evidence": "I7/I19: identical quarter-filled cyan bottle graphic, white central area, bubbles and cap; I13/I21: matching green crushed-bottle folds and tilted neck",
+      "distinct_content_sets": {
+        "Crystal_water_product": [
+          1
+        ],
+        "white_cartoon_metal_bottle": [
+          2
+        ],
+        "full_cyan_water_graphic": [
+          3
+        ],
+        "unlabelled_clear_bottle_by_wall": [
+          4
+        ],
+        "blue_and_pink_label_product": [
+          5,
+          6
+        ],
+        "quarter_filled_cyan_graphic": [
+          7,
+          19
+        ],
+        "blue_crushed_stock": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          20
+        ],
+        "green_crushed_stock": [
+          13,
+          21
+        ],
+        "LeMinerale_product": [
+          14
+        ],
+        "Nu_green_tea_product": [
+          15,
+          16
+        ],
+        "white_shaker_with_red_loop": [
+          17
+        ],
+        "PureLife_product": [
+          18
+        ]
+      },
+      "abstain_between_content_sets": [
+        [
+          "blue_crushed_stock",
+          "green_crushed_stock"
+        ],
+        [
+          "full_cyan_water_graphic",
+          "quarter_filled_cyan_graphic"
+        ]
+      ]
+    },
+    "70": {
+      "same_source_sets": [
+        [
+          3,
+          5
+        ]
+      ],
+      "same_source_evidence": "matching Coca-Cola label crop, neck highlights and enclosure edges for I3/I5",
+      "distinct_content_sets": {
+        "CocaCola_label": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "water_bottle_label": [
+          7,
+          8
+        ]
+      }
+    },
+    "73": {
+      "same_source_sets": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "same_source_evidence": "matching bottle shape, label and pink enclosure edge layout within each listed set",
+      "distinct_content_sets": {
+        "empty_CocaCola_in_enclosure": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "filled_CocaCola_in_enclosure": [
+          11,
+          12
+        ],
+        "water_bottle_on_fabric": [
+          13,
+          14
+        ],
+        "orange_juice_studio_product": [
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    "85": {
+      "same_source_sets": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "same_source_evidence": "matching Gourmet Cola label, bottle speckles, knee folds, window and background person; I2 is grayscale"
+    },
+    "86": {
+      "same_source_sets": [
+        [
+          1,
+          3
+        ]
+      ],
+      "same_source_evidence": "matching PIAFFINE label, bottle shoulder texture, threaded neck, shadow and patterned fabric at upper right"
+    },
+    "88": {
+      "same_source_sets": [],
+      "same_source_evidence": "",
+      "distinct_content_sets": {
+        "bottle_with_red_label": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          54,
+          55,
+          56,
+          57
+        ],
+        "bottle_without_body_label": [
+          5,
+          6,
+          7,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          58,
+          59,
+          60
+        ]
+      }
+    },
+    "92": {
+      "same_source_sets": [],
+      "same_source_evidence": "",
+      "distinct_content_sets": {
+        "blue_Aqua_water_label": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          46
+        ],
+        "small_yellow_lidded_jar": [
+          2,
+          3,
+          20,
+          21,
+          22,
+          23,
+          27,
+          28,
+          29,
+          33,
+          34
+        ],
+        "green_uncapped_bottle": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          24,
+          25,
+          26,
+          30,
+          31,
+          32,
+          43,
+          44,
+          45
+        ]
+      }
+    },
+    "147": {
+      "same_source_sets": [
+        [
+          1,
+          2
+        ]
+      ],
+      "same_source_evidence": "matching 7Up label creases, bottle reflections, base outline and speckled floor features"
+    },
+    "165": {
+      "same_source_sets": [],
+      "same_source_evidence": "",
+      "distinct_content_sets": {
+        "white_shaker_with_red_loop": [
+          1
+        ],
+        "cropped_clear_soda_bottle_base": [
+          2
+        ]
+      }
+    },
+    "166": {
+      "same_source_sets": [],
+      "same_source_evidence": "",
+      "distinct_content_sets": {
+        "tall_narrow_bottle_with_coloured_caps": [
+          1
+        ],
+        "short_ribbed_bottle_by_cardboard": [
+          2
+        ]
+      }
+    }
+  },
+  "unsure_context": {
+    "34": "Similar enclosure captures include several bottle poses and labels; matching scene is insufficient to establish the same photograph.",
+    "48": "Dark enclosure captures restrict the fine details needed to distinguish different shots.",
+    "50": "The same pink enclosure is reused across captures; small pose and viewpoint changes need original-image or capture provenance review.",
+    "52": "The enclosure and sometimes the same product recur in several positions. Similar background does not establish the same photograph.",
+    "55": "Related crushed-bottle stock images may be crops, distortions or separate images; the saved previews do not settle that relation.",
+    "70": "Coca-Cola/enclosure images recur at different label angles; the small pose differences need original-image or capture provenance review.",
+    "73": "Empty Coca-Cola bottles in the same enclosure have small position or label-angle differences; source-frame relation is unconfirmed.",
+    "85": "The same Gourmet Cola setup recurs, but the background person and framing differ; it may be another capture of the same scene.",
+    "86": "Very similar bottle, fabric and shadow; saved previews cannot settle whether minor framing changes are a crop or another capture.",
+    "104": "Soft cropped green-capped bottle frames have very similar pose and backdrop. Original frames or recording provenance are needed.",
+    "107": "Soft horizontal green-capped bottle frames have very similar pose and backdrop. Original frames or recording provenance are needed.",
+    "113": "Soft horizontal green-capped bottle frames are visually very similar; frame identity cannot be established from these previews.",
+    "142": "Green 7Up bottle floor captures have similar pose but differing framing/reflections; same photograph versus nearby captures is unconfirmed.",
+    "145": "The pair is extremely dark; bottle and background detail are insufficient to confirm the same photograph.",
+    "146": "Bottle by sofa in similar setup, but small framing/pose changes do not settle the source-frame relation.",
+    "158": "Two soft crushed-bottle stock previews have related folds but different apparent proportions; crop/distortion versus separate source remains unconfirmed.",
+    "159": "Close green bottle neck captures share the setup; fine cap/background differences need original-image or capture provenance review.",
+    "161": "The same two-bottle setup recurs with reflection/framing differences; same photograph versus separate captures is unconfirmed."
+  }
+}

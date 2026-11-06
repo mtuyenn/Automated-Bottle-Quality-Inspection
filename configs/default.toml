@@ -1,0 +1,29 @@
+config_id = "default"
+schema_version = 1
+minimum_confidence = 0.35
+minimum_observations = 3
+maximum_missed_frames = 2
+maximum_tracks = 4096
+maximum_frames_per_run = 100000
+minimum_region_edge_variance = 12.0
+# Post-ByteTrack run-scoped IoU heuristic: a possible correspondence must meet this threshold.
+# It is an identity uncertainty signal, not proof of real-media identity or occlusion handling.
+tracker_iou_threshold = 0.20
+# Competing previous-box correspondences this close in IoU mark the involved IDs uncertain.
+tracker_ambiguity_margin = 0.025
+# Consecutive absent detector frames tolerated before an ID becomes uncertain; state is capped by maximum_tracks.
+max_upload_bytes = 268435456
+
+# Phase 1 demo policy; calibrate these values on validation data before real inspection.
+roi = [0.1, 0.1, 0.9, 0.9]
+entry_line = 0.2
+exit_line = 0.8
+direction = "LEFT_TO_RIGHT"
+frame_aspect_ratio = 1.7777777777777777
+line_hysteresis = 0.01
+minimum_observation_duration = 0.2
+cap_support_threshold = 0.7
+label_support_threshold = 0.7
+track_timeout_seconds = 0.5
+association_ambiguity_margin = 0.03
+minimum_component_overlap = 0.5

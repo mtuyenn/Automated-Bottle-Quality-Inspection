@@ -1,0 +1,14 @@
+task = "detect"
+model = "yolo11n"
+model_id = "bottleqc-yolo11n"
+seed = 42
+imgsz = 640
+epochs = 100
+batch = 16
+device = "cpu"
+workers = 0
+split = "train/validation"
+resume = false
+
+# Training is never started by importing this config. The CLI requires explicit local
+# data and weights and records actual provenance only after a real run.

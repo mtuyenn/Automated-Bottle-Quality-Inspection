@@ -1,0 +1,171 @@
+{
+  "revision": "candidate-v2-reviewed-decisions-2026-11-05-v1",
+  "policy_revision": "BottleQC-visible-object-and-physical-label-v2",
+  "review_status": "PIXEL_REJUDGED_BOUNDED_SAMPLE",
+  "candidate_authorized": false,
+  "training_ready": false,
+  "historical_proposal_artifact": "candidate-v2-corrections-2026-11-05-v1.json",
+  "historical_proposal_artifact_role": "comparison_only_never_promoted_automatically",
+  "source_evidence": {
+    "notebook": "notebooks/colab-training-preparation.ipynb",
+    "cell_index": 16,
+    "cell_id": "35b0f7bc",
+    "displayed_cell_number": 8,
+    "execution_count": 2,
+    "behavior": "exported existing annotations and rendered their boxes; did not run detection or model inference",
+    "candidate_zip_sha256_from_saved_output": "28ee24280bce8184acd1cdf9a97e850788e908109bfa662efecb07a8a7b179eb",
+    "drive_readback_independent": false,
+    "source_pixels": "docs/reports/original-label-review-evidence/",
+    "source_images_count": 7,
+    "source_images_sha256_match_saved_record": true,
+    "source_dimensions": [640, 640],
+    "source_exif_orientation": "none",
+    "scope": "Seven saved candidate source images only; not a complete semantic audit or candidate approval"
+  },
+  "classes": {
+    "0": "bottle",
+    "1": "cap",
+    "2": "label"
+  },
+  "confirmed_policy": {
+    "visible_partial_bottle": "class 0 when visible pixels establish bottle identity; clip box to observed in-frame bottle pixels and never infer off-frame extent",
+    "cap_or_neck_only": "leave unresolved if bottle identity is uncertain",
+    "class_2": "distinct physical adhesive label or physical sleeve; exclude printing directly on bottle material",
+    "physical_label_uncertainty": "leave unresolved",
+    "source_preservation": "never modify source images or labels; corrections belong only to a separate candidate"
+  },
+  "decisions": [
+    {
+      "id": "train-005",
+      "split": "train",
+      "image": "images/train/images-2024-04-11T000613-929_jpeg_jpg.rf.fdf9b69e6b450b33e2a8d5c8146e8d40.jpg",
+      "label": "labels/train/images-2024-04-11T000613-929_jpeg_jpg.rf.fdf9b69e6b450b33e2a8d5c8146e8d40.txt",
+      "image_sha256": "4138d13c41550cbf6789cc8e1e72006d77bb8ef8f2ca724834111810f43cf306",
+      "original_label_sha256": "edbbc4e99199a8e4d3d19bd2266fe2f84b37acbfc56442dff57fca945bd76ca0",
+      "source_preview": "docs/reports/original-label-review-evidence/train-005.jpg",
+      "original_yolo": "0 0.53984375 0.4796875 0.36875 0.896875\n1 0.49609375 0.08828125 0.13828125 0.09375\n",
+      "decision": "replace_label",
+      "replacement_yolo": "0 0.50000000 0.49765625 0.28125000 0.89531250\n1 0.49609375 0.08828125 0.13828125 0.09375000\n2 0.49687500 0.55156250 0.27500000 0.77812500\n",
+      "pixel_evidence": "The bottle is visible from approximately x=230..410, y=32..605. A distinct full-body film sleeve with a visible boundary carries the Nu Green Tea artwork; it is not merely lettering printed on the bottle material. Preserve the cap row. The source bottle box extends into the white right margin.",
+      "visible_box_edges_xyxy": {
+        "bottle": [230, 32, 410, 605],
+        "physical_sleeve": [230, 104, 406, 602]
+      },
+      "reviewer_attestation_required_before_candidate": true
+    },
+    {
+      "id": "train-016",
+      "split": "train",
+      "image": "images/train/WhatsApp-Image-2024-06-22-at-5-48-34-PM_jpeg.rf.faee8614c45c528b2c272b7370f2cd60.jpg",
+      "label": "labels/train/WhatsApp-Image-2024-06-22-at-5-48-34-PM_jpeg.rf.faee8614c45c528b2c272b7370f2cd60.txt",
+      "image_sha256": "b11719d35960818d2aede89c375dee6a2f22988e84b5d99c13f48921315c8d50",
+      "original_label_sha256": "bcac55d93776c68b0db8f53f37a81a4d470752ad588a0df3cbe85cbaa0f114c0",
+      "source_preview": "docs/reports/original-label-review-evidence/train-016.jpg",
+      "original_yolo": "0 0.78984375 0.4390625 0.315625 0.7875\n0 0.51796875 0.515625 0.22734375 0.64921875\n0 0.2546875 0.53515625 0.28125 0.68203125\n2 0.7859375 0.51796875 0.2578125 0.18125\n2 0.25234375 0.621875 0.22734375 0.18359375\n1 0.8140625 0.0984375 0.1484375 0.07734375\n",
+      "decision": "replace_label",
+      "replacement_yolo": "0 0.78984375 0.43906250 0.31562500 0.78750000\n0 0.51796875 0.51562500 0.22734375 0.64921875\n0 0.25468750 0.53515625 0.28125000 0.68203125\n2 0.78593750 0.51796875 0.25781250 0.18125000\n2 0.25234375 0.62187500 0.22734375 0.18359375\n1 0.81406250 0.09843750 0.14843750 0.07734375\n1 0.22578125 0.25937500 0.11406250 0.06562500\n",
+      "pixel_evidence": "Three bottles are visible. The left bottle has a closed green cap with a visible outer edge; the middle bottle has exposed threads and an open mouth, so it gets no cap box. The right bottle retains its existing cap. Existing physical label rectangles remain.",
+      "visible_box_edges_xyxy": {
+        "added_left_cap": [108, 145, 181, 187]
+      },
+      "reviewer_attestation_required_before_candidate": true
+    },
+    {
+      "id": "train-018",
+      "split": "train",
+      "image": "images/train/Plastico_35_jpg.rf.d97bbb96fd11c6f334b4195cbd5f5ca1.jpg",
+      "label": "labels/train/Plastico_35_jpg.rf.d97bbb96fd11c6f334b4195cbd5f5ca1.txt",
+      "image_sha256": "6e18a14ef66a64c6c415cceb8dcecf607769e88415a9d045365fc3c5b18e1794",
+      "original_label_sha256": "1ca5dbd302f1c6e02277362c931ccb97c624d0c568f09e95f649a1b629593b35",
+      "source_preview": "docs/reports/original-label-review-evidence/train-018.jpg",
+      "original_yolo": "0 0.41953125 0.60859375 0.76875 0.3890625\n1 0.115625 0.58203125 0.15859375 0.2421875\n",
+      "decision": "replace_label",
+      "replacement_yolo": "0 0.41953125 0.60859375 0.76875000 0.38906250\n1 0.11562500 0.58203125 0.15859375 0.24218750\n2 0.55546875 0.62734375 0.21718750 0.38281250\n",
+      "pixel_evidence": "The bottle is lying horizontally in the encoded 640×640 pixels. The Mountain Dew artwork is on a distinct wrap around the bottle body. Retain the existing bottle and cap geometry; add only the physical sleeve.",
+      "visible_box_edges_xyxy": {
+        "physical_sleeve": [286, 279, 425, 524]
+      },
+      "reviewer_attestation_required_before_candidate": true
+    },
+    {
+      "id": "train-020",
+      "split": "train",
+      "image": "images/train/IMG-20240622-WA0103_jpg.rf.bb850979267866d536c364a3189a9b2b.jpg",
+      "label": "labels/train/IMG-20240622-WA0103_jpg.rf.bb850979267866d536c364a3189a9b2b.txt",
+      "image_sha256": "8eb9b68d90e4207d533d08744242a97f93d77a8c9acc579fd34cfa9994954b34",
+      "original_label_sha256": "d4e52e0665aa8c8bd9fbdaaac47c2fd34fa7aff445816439608aad33f429168a",
+      "source_preview": "docs/reports/original-label-review-evidence/train-020.jpg",
+      "original_yolo": "1 0.49921875 0.659375 0.26953125 0.17734375\n",
+      "decision": "replace_label",
+      "replacement_yolo": "0 0.50546875 0.83828125 0.29218750 0.32343750\n1 0.50000000 0.63437500 0.25000000 0.10625000\n",
+      "pixel_evidence": "The image shows the red cap, green neck, and a substantial connected green bottle shoulder. Bottle identity is established from visible pixels, so class 0 is added for the observed in-frame body only. Its lower box edge is clipped at y=640; no off-frame extent is inferred. The cap box excludes the green neck and ring.",
+      "visible_box_edges_xyxy": {
+        "bottle_visible_body": [230, 433, 417, 640],
+        "red_cap_only": [240, 372, 400, 440]
+      },
+      "previously_unresolved": true,
+      "reviewer_attestation_required_before_candidate": true
+    },
+    {
+      "id": "train-027",
+      "split": "train",
+      "image": "images/train/crushed_plastic_bottle76_jpg.rf.f7c98d72a8c4b6b2e1053773c3aa7f20.jpg",
+      "label": "labels/train/crushed_plastic_bottle76_jpg.rf.f7c98d72a8c4b6b2e1053773c3aa7f20.txt",
+      "image_sha256": "d76a798983f079974925386b5743f958d13fd760d9b3b4affb9fd0747df13ded",
+      "original_label_sha256": "387cd9ffd0abe4083c35ea979f83bd39917fbcd02b614687c4f3041334739fd0",
+      "source_preview": "docs/reports/original-label-review-evidence/train-027.jpg",
+      "original_yolo": "0 0.48671875 0.5640625 0.7953125 0.8125\n",
+      "decision": "replace_label",
+      "replacement_yolo": "0 0.53828125 0.51796875 0.65781250 0.71406250\n1 0.16562500 0.36875000 0.08750000 0.22187500\n",
+      "pixel_evidence": "The flattened bottle remains identifiable and its box is tightened to the visible bottle body. A white cap is visible at the left end. The cap box excludes the adjacent blue tamper ring and remains within the frame.",
+      "visible_box_edges_xyxy": {
+        "bottle_visible_body": [134, 103, 555, 560],
+        "white_cap_only": [78, 165, 134, 307]
+      },
+      "reviewer_attestation_required_before_candidate": true
+    },
+    {
+      "id": "train-044",
+      "split": "train",
+      "image": "images/train/images-82-_jpeg_jpg.rf.2507b61e1295a17872b07b45ad24b28b.jpg",
+      "label": "labels/train/images-82-_jpeg_jpg.rf.2507b61e1295a17872b07b45ad24b28b.txt",
+      "image_sha256": "756e98817b51d27c90191c61d0a632cb4df0f7bda794ca319823d93769708883",
+      "original_label_sha256": "e822d13781e25a6f424e88ba47071d09ecda50faf06509fa276b8d11ee6a10a2",
+      "source_preview": "docs/reports/original-label-review-evidence/train-044.jpg",
+      "original_yolo": "0 0.1625 0.5390625 0.15234375 0.4890625\n0 0.28984375 0.540625 0.14453125 0.4875\n0 0.43359375 0.5390625 0.15859375 0.4890625\n0 0.56953125 0.546875 0.13515625 0.4734375\n0 0.69453125 0.5375 0.13046875 0.45625\n0 0.83671875 0.5390625 0.16484375 0.45625\n1 0.17109375 0.33671875 0.07578125 0.05\n1 0.29921875 0.3390625 0.07578125 0.0546875\n1 0.4328125 0.3421875 0.09140625 0.0546875\n1 0.5640625 0.34453125 0.07578125 0.0546875\n1 0.70078125 0.33671875 0.07578125 0.05\n1 0.83125 0.33828125 0.08671875 0.05234375\n",
+      "decision": "exclude",
+      "pixel_evidence": "The entire image is an advertisement graphic/collage with six small product renderings and promotional text, not a camera capture. Exclude this source from the conveyor-focused v2 candidate; preserve it unchanged. This is a content decision, not an exclusion quota.",
+      "reviewer_attestation_required_before_candidate": true
+    },
+    {
+      "id": "train-046",
+      "split": "train",
+      "image": "images/train/images-53-_jpeg_jpg.rf.7033868f7db98f546c138edc1ab07510.jpg",
+      "label": "labels/train/images-53-_jpeg_jpg.rf.7033868f7db98f546c138edc1ab07510.txt",
+      "image_sha256": "7dcd11550fffbe669c2a67f6cad9f25a4fbd86d618d3bed7f94ca11cb86f5fcf",
+      "original_label_sha256": "09486e23ee2c496d1c5231cd76cc50c15f57fc5584ae6cca2460b414efa820b6",
+      "source_preview": "docs/reports/original-label-review-evidence/train-046.jpg",
+      "original_yolo": "0 0.153125 0.4078125 0.1546875 0.340625\n0 0.2390625 0.38828125 0.14375 0.30625\n0 0.33828125 0.4 0.1171875 0.309375\n0 0.43671875 0.40234375 0.1203125 0.309375\n0 0.52265625 0.390625 0.1203125 0.3015625\n0 0.62109375 0.3984375 0.103125 0.3109375\n0 0.35546875 0.565625 0.1421875 0.2640625\n0 0.46015625 0.57109375 0.1109375 0.2890625\n0 0.553125 0.5765625 0.103125 0.2953125\n0 0.640625 0.58203125 0.0734375 0.290625\n0 0.73046875 0.578125 0.0859375 0.2875\n0 0.834375 0.58984375 0.1109375 0.290625\n1 0.15625 0.2640625 0.05625 0.040625\n1 0.25 0.265625 0.05625 0.03125\n",
+      "decision": "exclude",
+      "pixel_evidence": "The image is a retail advertisement graphic with twelve small bottle renderings, logos, and promotional text, not a camera capture. Existing labels cover only two caps and omit the product marks. Exclude from this conveyor-focused candidate and preserve the source bytes. This is a content decision, not an exclusion quota.",
+      "reviewer_attestation_required_before_candidate": true
+    }
+  ],
+  "review_coverage": {
+    "reviewed_ids": ["train-005", "train-016", "train-018", "train-020", "train-027", "train-044", "train-046"],
+    "unresolved_ids": [],
+    "unreviewed_candidate_pairs": "all remaining pairs; the full candidate audit has not run",
+    "semantic_clean_claim": false
+  },
+  "approval_receipt": {
+    "status": "PENDING_INDEPENDENT_STATIC_REVIEW_AND_HUMAN_ATTESTATION",
+    "reviewer_id": null,
+    "reviewed_at_utc": null,
+    "candidate_build_allowed": false
+  },
+  "limitations": [
+    "The seven embedded source images and original label strings are bounded saved-output evidence, not an independent Drive read.",
+    "This artifact rejudges only seven sample records; all other records remain unreviewed until the full-candidate audit and semantic review are completed.",
+    "No source label was changed and no candidate was created."
+  ]
+}
